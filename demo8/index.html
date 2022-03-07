@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang ="fi">
+<html lang="fi">
+
+
+
+
 <head>
-    <meta charset ="UTF-8" />
-    <title>demo8</title>
+    <meta charset="UTF-8" />
+    <title>demo7</title>
     <script type="text/javascript" language="javascript" src="Login.js"></script>
 </head>
 
@@ -11,11 +15,12 @@
     <p id="tervetuloa_teksti">Welcome my friend!</p>
     <form id="kirjautumis_lomake">
         <input id="nimi" type="text" placeholder="Input your name!" value="" />
-        <input id="signin_button" type="submit" value="Sign in!" onClick="signin()" />
+        <input id="kirjaudu_nappi" type="submit" value="Sign in" onClick="kirjaudu()" />
+
     </form>
-    <form id="logout_form">
-        <input id="logout_button" type="submit" value="Log Out!" onClick="logout()" />
+    <form id="kirjaudu_ulos_lomake">
+        <input id="kirjaudu_ulos_nappi" type="submit" value="Signout" onClick="kirjaudu_ulos()" />
+ 
     </form>
 </body>
-
 </html>
